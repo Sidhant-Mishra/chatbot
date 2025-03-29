@@ -17,10 +17,10 @@ def my_output(query):
 
 st.set_page_config(page_title="SMART_BOT")
 st.header("SMART_BOT") 
-input = st.text_input("Input " , key = "input")   
+input = st.text_input("Input " , key = "input")  
 submit = st.button("Ask your query") 
 
 if submit :
     response = my_output(input) 
-    st.subheader("The Response is =")
+    st.subheader("The Response is=")
     st.write(response)
